@@ -13,7 +13,12 @@ public class ObedientRobot {
 		if (color.equals("red")) {
 			s.setPenColor(Color.RED);
 		}
-
+		if (color.equals("green")) {
+			s.setPenColor(Color.GREEN);
+		}
+		if (color.equals("blue")) {
+			s.setPenColor(Color.BLUE);
+		}
 		String shape = JOptionPane.showInputDialog("pick, a shape square,triangle or circle");
 		if (shape.equals("square")) {
 			drawSquare(s);
